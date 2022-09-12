@@ -1,0 +1,109 @@
+/*index*/
+body{
+	height: 100%;
+    background-color: black;
+	background-position: center;
+	font-family: 'Poppins', sans-serif;
+}
+/*header*/
+.navbar {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding: 1rem 1.5rem;
+	justify-content: space-between;
+	height: 100px;
+}
+.nav-menu {
+	display: flex;
+	align-items: center;
+	width: auto;
+	height: auto;
+}
+
+.nav-item {
+	margin-left: 3rem;
+
+}
+.nav-link{
+	font-size: 1.188rem;
+	color: rgb(0, 0, 0);
+}
+.nav-link:hover {
+	color: #55ffe5;
+}
+
+.logob {
+	width: 4%;
+	height: auto;
+}
+/*end header*/
+.AC-02-title{
+	color: white;
+	text-align: center;
+}
+.AC-02-img{
+	width: 50%;
+	border-radius: 30px;
+	padding-left: 20px;
+}
+.AC-02-object {
+	display: flex;
+	color: white;
+}
+.AC-02-title-2 {
+	padding-left: 80px;
+}
+.btn-submit {
+	width: 200px;
+	height: 100px;
+	border-radius: 30px;
+	font-size: 20px;
+	transition: all 0.25s ease;
+	background-color: white;
+}
+.btn-submit:hover {
+	transform: translate(-6px,-6px);
+	background-color: black;
+	color: white;
+	border-color: white;
+}
+.btn-sunk {
+	text-decoration: none;
+	color:black ;
+}
+.btn-sunk:hover{
+	color: black;
+}
+.text600 {
+	text-decoration: line-through;
+}
+::-webkit-scrollbar {
+	width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+	background: gray;
+  }
+  ::-webkit-scrollbar-thumb {
+	background: #BCBCBC;
+  }
+@media only screen and (max-width: 600px) {
+	.navbar {
+		width: 600px;
+		padding: 0.313rem;
+		justify-content: flex-start;
+		display: flex;
+		align-items: center;
+	}
+	.nav-menu {
+		width: 300px;
+		padding-top: 10px;
+	}
+	.nav-link {
+		font-size: 0.813rem;
+		width:1.875rem ;
+	}
+	.nav-item {
+		margin-left: 3.75rem;
+	}
+}

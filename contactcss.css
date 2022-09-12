@@ -1,0 +1,170 @@
+/*index*/
+body{
+	height: 100%;
+    background-color: black;
+	background-position: center;
+	font-family: 'Poppins', sans-serif;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding: 1rem 1.5rem;
+	justify-content: space-between;
+	height: 100px;
+}
+.nav-menu {
+	display: flex;
+	align-items: center;
+	width: auto;
+	height: auto;
+}
+
+.nav-item {
+	margin-left: 3rem;
+
+}
+.nav-link{
+	font-size: 1.188rem;
+	color: rgb(0, 0, 0);
+}
+.nav-link:hover {
+	color: #55ffee;
+}
+
+.logob {
+	width: 4%;
+	height: auto;
+}
+.me {
+	width: 400px;
+	margin-left: 50px;
+}
+.contact-index {
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+.contact-title {
+	padding-left: 50px;
+}
+.contact-item {
+	font-size: 25px; 
+	padding-left: 80px;
+	padding-top: 10px;
+}
+.contact-link {
+	text-decoration: none;
+	color: white;
+}
+.contact-link:hover {
+	color: #ffda55;
+}
+.me {
+	border-radius: 30px;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	text-align: center;
+ }
+  .page-footer {
+	padding-top: 20px;
+  }
+  ::-webkit-scrollbar {
+	width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+	background: gray;
+  }
+  ::-webkit-scrollbar-thumb {
+	background: #BCBCBC;
+  }
+  /*end footer*/
+  @media only screen and (max-width: 640px) {
+	.navbar {
+	  width: fit-content;
+	  padding: 0.313rem;
+	  justify-content: flex-start;
+	  display: flex;
+	  align-items: center;
+	}
+	.nav-menu {
+	  display: none;
+	}
+	.logob {
+	  width: 4%;
+	}
+	.dropbtn {
+	  background-color: #000000;
+	  color: white;
+	  padding: 16px;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	  border-radius: 20px;
+	  transition: all 0.25s ease;
+	}
+	
+	.dropdown {
+	  position: relative;
+	  display: inline-block;
+	  margin-left: 470px;
+	}
+	
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 130px;
+	  box-shadow: 0px 8px 16px 0px rgb(37, 245, 238);
+	  z-index: 1;
+	  border-color: #000000;
+	}
+	
+	.dropdown-content a {
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+	
+	.dropdown-content a:hover {
+	  background-color: #8a8a8a
+	}
+	
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+	
+	.dropdown:hover .dropbtn {
+	  background-color: rgb(0, 0, 0);
+	  color: rgb(255, 255, 255);
+	}
+
+	.me {
+		width: 300px;
+		height: 300px;
+	}
+	.contact-title{
+		font-size: 16px;
+	}
+	.contact-link{
+		font-size: 16px;
+	}
+	.contact-item li {
+		font-size: 16px;
+	}
+  }
+
+
+
+  @media only screen and (min-width: 641px) {
+	.dropdown {
+	  display: none;
+	}
+  }
